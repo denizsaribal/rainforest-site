@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  background-color: #f4f4f0;
+  color: #2e3b2f;
+  line-height: 1.7;
+}
+
+a {
+  color: #4b6f44;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.fullscreen {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.map-links {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.map-links a {
+  display: block;
+  margin: 10px 0;
+  font-size: 1.1em;
+}
